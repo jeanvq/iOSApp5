@@ -21,7 +21,7 @@ Football (soccer) companion app — browse teams, search by team/league/country,
 ## Notes
 - Pull-to-refresh currently resets favorites since it reloads from mock data — a known limitation to be addressed with persistence (e.g., SwiftData) in a future assignment.
 
-- ## Additional SwiftUI Cookbook Features (Assignment 8)
+## Additional SwiftUI Cookbook Features (Assignment 8)
 
 7. **Swift Charts** — Bar chart on the Stats tab showing favorite teams grouped by league, built with `Chart` and `BarMark`.
 8. **.sensoryFeedback (Haptics)** — Triggers haptic feedback when a team is marked or unmarked as favorite.
@@ -29,3 +29,13 @@ Football (soccer) companion app — browse teams, search by team/league/country,
 10. **TabView** — App restructured into three tabs: Teams, Stats, and Settings, sharing state via a parent `MainTabView`.
 11. **Picker (Segmented Control)** — Segmented control to filter teams by league, combined with the existing search.
 12. **Form + Toggle/Stepper** — New Settings screen with notification toggle, refresh interval stepper, and compact mode toggle, persisted with `@AppStorage`.
+
+## Screenshots
+
+<p align="center">
+  <img src="./screenshot/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-07-03%20at%2014.22.44.png" alt="Teams Tab" width="220"/>
+  <img src="./screenshot/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-07-03%20at%2014.22.52.png" alt="Team Detail" width="220"/>
+  <img src="./screenshot/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-07-03%20at%2014.23.25.png" alt="Stats Tab" width="220"/>
+  <img src="./screenshot/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-07-03%20at%2014.23.31.png" alt="Settings Tab" width="220"/>
+  <img src="./screenshot/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-07-03%20at%2014.23.40.png" alt="Context Menu / Actions" width="220"/>
+</p>
