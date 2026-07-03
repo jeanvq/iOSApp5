@@ -4,7 +4,7 @@ import SwiftUI
 struct FutHub_IOSApp: App {
     var body: some Scene {
         WindowGroup {
-            TeamListView()
+            MainTabView()
         }
     }
 }
